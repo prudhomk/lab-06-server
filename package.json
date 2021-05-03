@@ -5,11 +5,11 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-      "start": "node server.js",
-      "start:watch": "nodemon server.js",
-      "lint": "eslint .",
-      "test": "node --experimental-vm-modules node_modules/.bin/jest --verbose --runInBand",
-      "test:watch": "npm run test -- --watch"
+    "start": "node server.js",
+    "start:watch": "nodemon server.js",
+    "lint": "eslint .",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --verbose --runInBand",
+    "test:watch": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
